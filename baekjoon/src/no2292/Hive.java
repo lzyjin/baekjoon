@@ -6,14 +6,14 @@ public class Hive {
 
 	public static void main(String[] args) {
 		
-		System.out.print("입력값 : ");
+		System.out.print("방번호를 입력하세요 : ");
 		
 		int input = new Scanner(System.in).nextInt();
 		
 		
 		int result = new Hive().func(input);
 		
-		System.out.println("결과값 : " + result);
+		System.out.println("최소 " + result + "개의 방을 지납니다");
 	}
 	 
 	// 1 
